@@ -48,7 +48,9 @@ const LoginForm = () => {
                     Your login information is wrong, please try again!
                 </Alert>
                 <Form.Group>
-                    <Form.Label htmlFor='email'>Your Email</Form.Label>
+                    <br>
+                    </br>
+                    <Form.Label htmlFor='email'>Your Email:<br></br></Form.Label>
                     <Form.Control
                     type='text'
                     placeholder='Your email'
@@ -59,8 +61,10 @@ const LoginForm = () => {
                     />
                     <Form.Control.Feedback type='invalid'>Your Email is Required!</Form.Control.Feedback>
                 </Form.Group>
+                <br>
+                </br>
                 <Form.Group>
-                    <Form.Label htmlFor='password'>Your Password</Form.Label>
+                    <Form.Label htmlFor='password'>Your Password: <br></br></Form.Label>
                     <Form.Control
                     type='password'
                     placeholder='Your password'
@@ -70,6 +74,8 @@ const LoginForm = () => {
                     />
                     <Form.Control.Feedback type='invalid'>Your Password is Required!</Form.Control.Feedback>
                 </Form.Group>
+                <br>
+                </br>
                 <Button
                 disabled={!(userFormData.email && userFormData.password)}
                 type='submit'
