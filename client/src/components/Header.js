@@ -11,8 +11,8 @@ const Header = () => {
                 <br/>
                 <input type="button" name="searchBtn" value="Click me"/>
             </form>
-            {/* <LoginForm/>
-            <SignupForm/> */}
+            <LoginForm/>
+            {/* <SignupForm/> */}
         </header>
 
     );
