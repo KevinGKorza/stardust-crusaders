@@ -82,6 +82,7 @@ const LoginForm = () => {
                     placeholder='Your password'
                     name='password'
                     onChange={handleInputChange}
+                    value={userFormData.password}
                     required
                     />
                     <Form.Control.Feedback type='invalid'>Your Password is Required!</Form.Control.Feedback>
@@ -89,7 +90,7 @@ const LoginForm = () => {
                 <br>
                 </br>
                 <Button
-                disabled={!(userFormData.email && userFormData.password)}
+                disabled={!(userFormData.username && userFormData.email && userFormData.password)}
                 type='submit'
                 variant='success'>
                     Submit
