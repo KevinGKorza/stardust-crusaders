@@ -7,7 +7,7 @@ import Auth from "../utils/auth";
 
 //Setting up email and password validation
 const LoginForm = () => {
-    const [userFormData, setUserFormData] = useState({email: '', password: ''});
+    const [userFormData, setUserFormData] = useState({username: '', email: '', password: ''});
     const[validated] = useState(false);
     const [showAlert, setShowAlert] = useState(false);
     const handleInputChange = (event) => {
@@ -48,6 +48,18 @@ const LoginForm = () => {
                     Your login information is wrong, please try again!
                 </Alert>
                 <Form.Group>
+                    <br>
+                    </br>
+                    <Form.Label htmlFor='username'>Your Username:<br></br></Form.Label>
+                    <Form.Control
+                    type='text'
+                    placeholder='Your username'
+                    name='username'
+                    onChange={handleInputChange}
+                    value={userFormData.username}
+                    required
+                    />
+                     <Form.Control.Feedback type='invalid'>Your Username is Required!</Form.Control.Feedback>
                     <br>
                     </br>
                     <Form.Label htmlFor='email'>Your Email:<br></br></Form.Label>
