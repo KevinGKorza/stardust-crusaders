@@ -5,7 +5,7 @@ import { Form, Button, Alert } from 'react-bootstrap';
 import { loginUser } from '../utils/API'
 import Auth from "../utils/auth";
 
-//Setting up email and password validation
+//Setting up username, email and password validation for the user
 const LoginForm = () => {
     const [userFormData, setUserFormData] = useState({username: '', email: '', password: ''});
     const[validated] = useState(false);
