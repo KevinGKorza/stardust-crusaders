@@ -5,6 +5,7 @@ import { Form, Button, Alert } from 'react-bootstrap';
 import { loginUser } from '../utils/API'
 import Auth from "../utils/auth";
 
+
 //Setting up username, email and password validation for the user
 const LoginForm = () => {
     const [userFormData, setUserFormData] = useState({username: '', email: '', password: ''});
@@ -30,6 +31,7 @@ const LoginForm = () => {
             const { token, user } = await response.json();
             console.log(user);
             // AuthenticatorAssertionResponse.login(token);
+            Auth.login(token);
         } catch (err) {
             console.error(err);
             setShowAlert(true);
