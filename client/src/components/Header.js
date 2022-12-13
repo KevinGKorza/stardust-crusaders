@@ -12,7 +12,7 @@ const Header = () => {
                 <input type="button" name="searchBtn" value="Click me"/>
             </form>
             <LoginForm/>
-            {/* <SignupForm/> */}
+            <SignupForm/>
         </header>
 
     );
