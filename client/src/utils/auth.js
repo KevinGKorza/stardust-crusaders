@@ -8,6 +8,7 @@ class AuthService {
   loggedIn() {
     const token = this.getToken();
     return !!token && !this.isTokenExpired(token) ? true : false;
+  }
 
   isTokenExpired(token) {
     try {
@@ -34,5 +35,4 @@ class AuthService {
     window.location.assign('/');
   }
 };
-
-export default new AuthService();
+export default new AuthServise();
