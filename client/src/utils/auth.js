@@ -35,4 +35,4 @@ class AuthService {
     window.location.assign('/');
   }
 };
-export default new AuthServise();
+export default new AuthService();
