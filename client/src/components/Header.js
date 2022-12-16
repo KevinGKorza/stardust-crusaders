@@ -1,23 +1,14 @@
-import React from "react";
-import SignupForm from './SignupForm';
-import LoginForm from './LoginForm';
-import Navbar from './Navbar';
+import React from 'react';
+import Navigation from './Navigation';
 
-const Header = () => {
+const Header = (props) => {
     return (
-        // <header>
-        //     <h1>GameStart</h1>
-        //     <form>
-        //         <input type="text" name="search" placeholder="Search to your heart content"/>
-        //         <br/>
-        //         <input type="button" name="searchBtn" value="Click me"/>
-        //     </form>
-        //     <LoginForm/>
-        //     <SignupForm/>
-        // </header>
-
-        <Navbar/>
-
+        <header className='container-fluid shadow'>
+            <div className='d-flex row'>
+                <h1 className='mt-4 pt-2 col'>GameStart</h1>
+                <Navigation className="nav pr-5 col" handlePageChange={props.handlePageChange}/>
+            </div>
+        </header>
     );
 };
 
