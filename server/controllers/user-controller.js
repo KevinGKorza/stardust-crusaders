@@ -42,7 +42,7 @@ module.exports = {
   },
 
   // user comes from `req.user` created in the auth middleware function
-  async savegame({ user, body }, res) {
+  async saveGame({ user, body }, res) {
     console.log(user);
     try {
       const updatedUser = await User.findOneAndUpdate(
@@ -57,7 +57,7 @@ module.exports = {
     }
   },
 
-  async deletegame({ user, params }, res) {
+  async deleteGame({ user, params }, res) {
     const updatedUser = await User.findOneAndUpdate(
       { _id: user._id },
       { $pull: { savedGames: { gameId: params.gameId } } },
