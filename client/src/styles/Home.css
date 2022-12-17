@@ -1,0 +1,9 @@
+.home {
+    background-image: url('../Images/home.png');
+    /* background-clip: border-box; */
+    
+}
+
+div {
+    height: 500px;
+}
