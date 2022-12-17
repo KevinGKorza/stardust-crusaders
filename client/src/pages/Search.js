@@ -23,6 +23,7 @@ const Search = () => {
                 </form>
             </div>
         </div>
+
     );
 };
 
