@@ -24,7 +24,7 @@ export const getSavedGameIds = () => {
     }
   
     const updatedSavedGameIds = savedGameIds?.filter((savedGameId) => savedGameId !== gameId);
-    localStorage.setItem('saved_gamess', JSON.stringify(updatedSavedGameIds));
+    localStorage.setItem('saved_games', JSON.stringify(updatedSavedGameIds));
   
     return true;
   };
