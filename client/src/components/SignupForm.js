@@ -9,7 +9,7 @@ import Auth from '../utils/auth'
 
 //Setting up form state, validation, and alert for appropriate information for the user
 const SignupForm = () => {
-    const [userFormData, setUserFormData] = useState({username: '', email: '', password: ''});
+    const [userFormData, setUserFormData] = useState({username: '', email: '', password: '' });
     const [validated] = useState(false);
     const [showAlert, setShowAlert] = useState(false);
     const handleInputChange = (event) => {
@@ -95,6 +95,14 @@ const SignupForm = () => {
                 <Button
                 disabled={!(userFormData.username && userFormData.email && userFormData.password)}
                 type='submit'
+                onClick={() => {
+                    setUserFormData({
+                        username: '',
+                        email: '',
+                        password: '',
+                    });
+                    alert("You Been Signed Up")
+                }}
                 variant='success'>
                     Submit
                 </Button>

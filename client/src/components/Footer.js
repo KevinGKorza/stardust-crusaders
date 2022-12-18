@@ -2,8 +2,8 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div>
-            <h1 className='display-4 text-center'>Footer-In Progress</h1>
+        <div className='d-flex justify-content-center mt-3'>
+            <img src={require('../../src/Images/home.png')} height={100} width={200}/>
         </div>
     );
 };

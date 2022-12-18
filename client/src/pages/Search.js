@@ -1,6 +1,7 @@
 import React from "react";
+import Home from "./Home";
 
-const Search = () => {
+const Search = (props) => {
     return (
         <div className="d-flex flex-column bg-secondary shadow">
             <h1 className="text-center">Search</h1>
@@ -19,10 +20,20 @@ const Search = () => {
                         id="submit"
                         value="Submit"
                         style={{margin: "5px"}}
+                        onClick={() => {
+                            if(document.getElementById('Search').value === 'mario') {
+                                props.handlePageChange("Home");
+                            }
+                            else if(document.getElementById('Search').value === 'zelda'){
+                                props.handlePageChange('Home2');
+                            }
+                            
+                        }}
                     />
                 </form>
             </div>
         </div>
+
     );
 };
 

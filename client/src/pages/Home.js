@@ -1,10 +1,19 @@
 import React from "react";
-// import '../styles/Home.css'
 
 const Home = () => {
     return (
-        <div className="home">
-            <h1>GameStart_Home</h1>
+        <div>
+            <h1>Your Games</h1>
+            <div className="row">
+                <img src={require('../../src/Images/super-mario-bros.webp')} height={500} width={400} className="col-sm-6"/>
+                <img src={require('../../src/Images/Super_Mario_Bros._box.png')} height={500} width={400} className="col-sm-6"/>
+            </div>
+            <div className="row">
+                <img src={require('../../src/Images/jp.webp')} height={500} width={400} className="col-sm-6"/>
+                <img src={require('../../src/Images/154-1542965_super-mario-bros-nes-box-art-hd-png.png')} height={400} width={500} className="col-sm-6" />
+            </div>
+
+
         </div>
     );
 };
