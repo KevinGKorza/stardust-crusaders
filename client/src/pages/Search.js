@@ -24,9 +24,16 @@ const Search = (props) => {
                             if(document.getElementById('search').value === 'mario') {
                                 props.handlePageChange("Home");
                             }
-                            else if(document.getElementById('search').value === 'zelda'){
+                            if(document.getElementById('search').value === 'zelda'){
                                 props.handlePageChange('Home2');
                             }
+                            if(document.getElementById('search').value === 'call of duty'){
+                                props.handlePageChange('Home3');
+                            }
+                            if(document.getElementById('search').value === 'fallout'){
+                                props.handlePageChange('Home4');
+                            }
+
                             
                         }}
                     />
