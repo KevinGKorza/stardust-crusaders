@@ -10,7 +10,7 @@ const Home3 = () => {
             </div>
             <div className="row">
                 <img src={require('../../src/Images/26583-call-of-duty-windows-front-cover.jpg')} height={500} width={400} className="col-sm-6"/>
-                <img src={require('../../src/Images/call-of-duty-black-ops-3-cover-i32821')} height={400} width={500} className="col-sm-6" />
+                <img src={require('../../src/Images/call-of-duty-black-ops-3-cover-i32831.jpg')} height={400} width={500} className="col-sm-6" />
             </div>
 
 
