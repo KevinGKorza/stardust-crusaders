@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import Home from '../pages/Home';
+import Home2 from '../pages/Home2';
 import Search from '../pages/Search';
 import Login from '../pages/Login';
 import SignUp from '../pages/SignUp';
@@ -12,6 +13,9 @@ const GameStartContainer = () => {
     const renderPage = () => {
         if(currentPage === 'Home') {
             return <Home/>;
+        }
+        if(currentPage === 'Home2'){
+            return <Home2/>
         }
         if(currentPage === 'Search') {
             return <Search handlePageChange={handlePageChange}/>;

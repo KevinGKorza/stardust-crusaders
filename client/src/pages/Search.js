@@ -21,10 +21,10 @@ const Search = (props) => {
                         value="Submit"
                         style={{margin: "5px"}}
                         onClick={() => {
-                            if(document.getElementById('Search').value === 'mario') {
+                            if(document.getElementById('search').value === 'mario') {
                                 props.handlePageChange("Home");
                             }
-                            else if(document.getElementById('Search').value === 'zelda'){
+                            else if(document.getElementById('search').value === 'zelda'){
                                 props.handlePageChange('Home2');
                             }
                             

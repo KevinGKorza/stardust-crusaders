@@ -101,7 +101,7 @@ const SignupForm = () => {
                         email: '',
                         password: '',
                     });
-                    alert("You Been Signed Up")
+                    alert("You've Been Signed Up")
                 }}
                 variant='success'>
                     Submit
