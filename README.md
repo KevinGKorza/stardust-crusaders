@@ -1,50 +1,70 @@
-# Game Start 
+# Getting Started with Create React App
 
-##User story
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-As a gamer,
+## Available Scripts
 
-I want to search availiable games,
+In the project directory, you can run:
 
-So that I can determine what I want to play.
+### `npm start`
 
-As a Gamer,
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-I want to see what games under the name i search are availiable,
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-So that I can see what games apply.
+### `npm test`
 
-As a Gamer,
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-I want to see what games i can put in a list
+### `npm run build`
 
-So that i can save a list of games i am interested in
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-As a gamer,
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-I want to login to the website
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-So that I can utilize the information on the site as best as I can including the list and preferences
+### `npm run eject`
 
-## Acceptance criteria
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Given the login page,
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-When I enter my credentials correctly and login,
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Then I am presented with a clean, intiuitive UI.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-When I enter a game/search criteria in the searchbar,
+## Learn More
 
-Then I am able to search for which game i am interested in according to the criteria.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-When I click on the game,
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Then the game i am presented with displays and i see more information.
+### Code Splitting
 
-![GamestartScreen]()
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-## Deployed page
+### Analyzing the Bundle Size
 
-Page published at: https://github.com/Claud9855/stardust-crusaders
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
