@@ -42,3 +42,9 @@ When I click on the game,
 
 Then the game i am presented with displays and i see more information.
 
+![GamestartScreen]()
+
+## Deployed page
+
+Page published at: https://github.com/Claud9855/stardust-crusaders
+
